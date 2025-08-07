@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>weather app</title>
+  <link rel = "stylesheet" href="style.css">
+</head>
+<body>
+  <div class="weatherapp">
+    <h1>🌤️Weather Website</h1>
+    <div class="search">
+      <input type="text" id="cityInput" placeholder="Enter City Name">
+      <button id="searchbtn">Search</button>
+    </div>
+    <div class="weatherinfo">
+      <div class="weather main">
+        <img src="https://openweathermap.org/img/wn/01d@2x.png" alt="Weather Icon" >
+        <div class="temp">28°C</div>
+        <div class="condition">Clear Sky</div>
+        <div class="location">Mumbai,India</div>
+        <div class="datetime">Sunday, 15 June 2025</div>
+      </div>
+      <div class="extrainfo">
+        <div class="box">Feels Like: <span>30°C</span></div>
+        <div class="box">Humidity: <span>60%</span></div>
+        <div class="box">Wind Speed: <span>8 km/h</span></div>
+        <div class="box">Pressure: <span>1012 hPa</span></div>
+      </div>
+    </div>
+    <h2>5-Days Forecast</h2>
+    <div class="forecast">
+      <div class="forecast-card">
+        <div class="forecast-card">🌧️<br>Wed<br>30°C</div>
+      <div class="forecast-card">⛅<br>Thu<br>31°C</div>
+      <div class="forecast-card">🌤️<br>Fri<br>29°C</div>
+      <div class="forecast-card">☁️<br>Sat<br>27°C</div>
+      <div class="forecast-card">⛈️<br>Sun<br>26°C</div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
