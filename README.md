@@ -12,4 +12,4 @@ A responsive web application that allows users to search for any city and view r
 ## 🛠️ Tech Stack
 - **Frontend:** HTML, CSS, JavaScript  
 - **API:** [OpenWeatherMap API](https://openweathermap.org/api)
-- Output link -http://127.0.0.1:5500/index.html
+- Output link - http://127.0.0.1:5500/Weather-Website-main/index.html
